@@ -15,6 +15,7 @@ The task involves creating two API endpoints:
 - Node.js: JavaScript runtime environment
 - Express.js: Web application framework for Node.js
 - File System (fs) module: Node.js module for interacting with the file system
+- Lowdb: Small local JSON database for Node.js
 - Postman: API development and testing tool
 
 ## Getting Started
@@ -22,13 +23,16 @@ The task involves creating two API endpoints:
 1. Clone this repository.
 2. Install dependencies using `npm install`.
 3. Install nodemon globally to automatically restart the server: `npm install -g nodemon`.
-4. Start the server using `npm start`.
-5. Use tools like Postman to test the API endpoints.
+4. **If running into permission issues on Windows**, set the execution policy: `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`.
+5. Start the server using `nodemon index.js`.
+6. Alternatively, use `npx` to run nodemon without changing execution policies: `npx nodemon index.js`.
+7. Use tools like Postman to test the API endpoints.
 
 ## Dependencies
 
 - express: Web framework for Node.js
 - body-parser: Middleware for parsing JSON and URL-encoded data in requests
+- lowdb: Small local JSON database for Node.js
 
 ## API Documentation
 
