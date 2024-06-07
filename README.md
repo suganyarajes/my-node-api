@@ -15,7 +15,6 @@ The task involves creating two API endpoints:
 - Node.js: JavaScript runtime environment
 - Express.js: Web application framework for Node.js
 - File System (fs) module: Node.js module for interacting with the file system
-- Lowdb: Small local JSON database for Node.js
 - Postman: API development and testing tool
 
 ## Getting Started
@@ -32,11 +31,11 @@ The task involves creating two API endpoints:
 
 - express: Web framework for Node.js
 - body-parser: Middleware for parsing JSON and URL-encoded data in requests
-- lowdb: Small local JSON database for Node.js
+
 
 ## API Documentation
 
-API documentation is provided using Postman's documentation feature. You can find the API documentation by following this [link](<insert documentation link here>).
+API documentation is provided using Postman's documentation feature. You can find the API documentation by following this (http://localhost:3000/get)
 
 ## Task Completion
 
